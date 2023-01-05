@@ -1,0 +1,126 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.logo-moon{
+    width: 190px;
+}
+.btn_continuar{
+  background: linear-gradient(82deg,#e1054a 19%,#ce4100);
+}
+
+.input_password::placeholder{
+  color: #fff
+}
+.input_email::placeholder{
+  color: #fff
+}
+nav{
+  background: black;
+}
+main {
+  flex-grow: 1;
+}
+.modal-dialog .modal-content{
+  background: #495057;
+  color: white;
+  
+}
+.modal-dialog .modal-header{
+  border: none;
+}
+
+.boton_redondo{
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.hover_cambiar_color:hover {
+background:#dc3545;
+
+}
+textarea{
+  resize: none;
+}
+.btn-enviar-caja{
+  background-color: #000000;
+}
+#btn-enviar:hover{
+  box-shadow: 3px 0px 30px red;
+}
+
+footer a {
+  text-decoration: none;
+}
+footer {
+  background: #000000;
+}
+
+.filtro_enlaces:hover {
+  transition: 500ms;
+  filter: brightness(3);
+}
+.fondo{
+  background: #000000;
+}
+.acuerdo{
+  height: 200px;
+}
+
+.zoom-cards img{
+  filter: grayscale(40%);
+}
+.zoom-cards img:hover{
+  filter: grayscale(0%);
+  transform: scale(1.04);
+  transition: all 0.4s;
+}
+.page-link{
+  background-color: #ce4100;
+  border: #b14119;
+  color: white;
+}
+.page-link.active{
+  background-color: black;
+  border: black;
+}
+.page-link:hover{
+  background-color: #8f391a;
+  border: #8f391a;
+  color: white;
+}
+.page-link.active:hover{
+  background-color: black;
+  border: black;
+  color: white;
+}
+.planes:hover{
+  cursor:default;
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+@media all and (max-width: 767px){
+  .banner{
+      height: 250px;
+      object-fit: cover;
+  }
+  .planes:hover{
+      cursor:default;
+      transform: none;
+      transition: all none;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px){
+  .banner{
+      height: 400px;
+      object-fit: cover;
+  }
+}
+@media all and (min-width: 992px){
+  .banner{
+      height: 400px;
+      object-fit: cover;
+  }
+}
